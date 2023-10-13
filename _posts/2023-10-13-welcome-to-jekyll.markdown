@@ -4,7 +4,93 @@ title: "Welcome to Jekyll!"
 date: 2023-10-13 18:39:35 +0900
 categories: jekyll update
 comments: true
+katex: true
+math: true
 ---
+
+$ a \* b = c ^ b $
+
+$ 2^{\frac{n-1}{3}} $
+
+$ \int_a^b f(x)\,dx. $
+
+```mermaid!
+pie title Pets adopted by volunteers
+  "Dogs" : 386
+  "Cats" : 85
+  "Rats" : 35
+```
+
+![](http://open.spotify.com/track/4Dg5moVCTqxAb7Wr8Dq2T5)
+
+![](https://www.youtube.com/watch?v=Ptk_1Dc2iPY)
+
+![](//www.youtube.com/watch?v=Ptk_1Dc2iPY?width=800&height=500)
+
+![](https://soundcloud.com/aviciiofficial/preview-avicii-vs-lenny)
+
+|              Stage | Direct Products | ATP Yields |
+| -----------------: | --------------: | ---------: |
+|         Glycolysis |           2 ATP |            |
+|                 ^^ |          2 NADH |   3--5 ATP |
+| Pyruvaye oxidation |          2 NADH |      5 ATP |
+|  Citric acid cycle |           2 ATP |            |
+|                 ^^ |          6 NADH |     15 ATP |
+|                 ^^ |          2 FADH |      3 ATP |
+|         30--32 ATP |                 |            |
+
+| : Easy Multiline : |        |           |
+| :----------------- | :----- | :-------- |
+| Apple              | Banana | Orange \  |
+| Apple              | Banana | Orange \  |
+| Apple              | Banana | Orange    |
+| Apple              | Banana | Orange \  |
+| Apple              | Banana | Orange    |
+| Apple              | Banana | Orange    |
+
+|--|--|--|--|--|--|--|--|
+|♜| |♝|♛|♚|♝|♞|♜|
+| |♟|♟|♟| |♟|♟|♟|
+|♟| |♞| | | | | |
+| |♗| | |♟| | | |
+| | | | |♙| | | |
+| | | | | |♘| | |
+|♙|♙|♙|♙| |♙|♙|♙|
+|♖|♘|♗|♕|♔| | |♖|
+
+| : Fruits \|\| Food : |           |           |
+| :------------------- | :-------- | :-------- |
+| Apple                | : Apple : | Apple \   |
+| Banana               | Banana    | Banana \  |
+| Orange               | Orange    | Orange    |
+| : Rowspan is 4 :     |           | How's it? |
+| ^^ A. Peach          |           | 1. Fine : |
+| ^^ B. Orange         |           | ^^ 2. Bad |
+| ^^ C. Banana         |           | It's OK!  |
+
+| : MathJax \|\| Image : |           |                                |
+| :--------------------- | :-------- | :----------------------------- |
+| Apple                  | : Apple : | Apple \                        |
+| Banana                 | Banana    | Banana \                       |
+| Orange                 | Orange    | Orange                         |
+| : Rowspan is 4 :       |           | : How's it? :                  |
+| ^^ A. Peach            |           | 1. ![example][cell-image]      |
+| ^^ B. Orange           |           | ^^ 2. $I = \int \rho R^{2} dV$ |
+| ^^ C. Banana           |           | **It's OK!**                   |
+
+[cell-image]: https://jekyllrb.com/img/octojekyll.png "An exemplary image"
+
+{:color-style: style="background: black;"}
+{:color-style: style="color: white;"}
+{:text-style: style="font-weight: 800; text-decoration: underline;"}
+
+| : Here's an Inline Attribute Lists example : |                                                               |     |     |
+| -------------------------------------------- | ------------------------------------------------------------- | --- | --- |
+| : :                                          | : <div style="color: red;"> &lt; Normal HTML Block > </div> : |     |     |
+| ^^                                           | Red {: .cls style="background: orange" }                      |     |     |
+| ^^ IALs                                      | Green {: #id style="background: green; color: white" }        |     |     |
+| ^^                                           | Blue {: style="background: blue; color: white" }              |     |     |
+| ^^                                           | Black {: color-style text-style }                             |     |     |
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
