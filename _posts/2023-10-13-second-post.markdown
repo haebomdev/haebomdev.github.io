@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Welcome to Jekyll!"
-date: 2023-10-13 18:39:35 +0900
-categories: jekyll update
-comments: true
-katex: true
-math: true
+title: "Second Post"
+date: 2023-10-13 13:39:35 +0900
+author: KDH
+categories: Basic
 ---
 
 $ a \* b = c ^ b $
