@@ -1,16 +1,21 @@
 ---
 layout: post
-title: "Second Post"
-date: 2023-10-13 13:39:35 +0900
+title: "Markdown Syntax"
+date: 2023-10-13 18:39:35 +0900
 author: KDH
-categories: Basic
+description: List of rare makrdown syntax
+thumbnail: https://img.freepik.com/free-photo/website-html-code-browser-view-printed-white-paper-closeup-view_211682-166.jpg?w=996&t=st=1697546256~exp=1697546856~hmac=426a0b6e50c1e2c15ecd1ad8f07565743966995c58cd410e4f78ae6af9555ff5
 ---
+
+# Math
 
 $ a \* b = c ^ b $
 
 $ 2^{\frac{n-1}{3}} $
 
 $ \int_a^b f(x)\,dx. $
+
+# Mermaid
 
 ```mermaid!
 pie title Pets adopted by volunteers
@@ -19,13 +24,41 @@ pie title Pets adopted by volunteers
   "Rats" : 35
 ```
 
+# Code
+
+```py
+print("hi")
+```
+
+```js
+console.log("hi");
+```
+
+```c
+printf("hi");
+```
+
+```java
+System.out.println("hi");
+```
+
+# Imbed
+
+## Spotify
+
 ![](http://open.spotify.com/track/4Dg5moVCTqxAb7Wr8Dq2T5)
+
+## Youtube
 
 ![](https://www.youtube.com/watch?v=Ptk_1Dc2iPY)
 
 ![](//www.youtube.com/watch?v=Ptk_1Dc2iPY?width=800&height=500)
 
+## Soundcloud
+
 ![](https://soundcloud.com/aviciiofficial/preview-avicii-vs-lenny)
+
+# Table
 
 |              Stage | Direct Products | ATP Yields |
 | -----------------: | --------------: | ---------: |

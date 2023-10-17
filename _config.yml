@@ -30,18 +30,20 @@ description: >- # this means to ignore newlines until "baseurl:"
 domain: lazybuttrying.github.io # if you want to force HTTPS, specify the domain without the http at the start,
 # baseurl:  # the subpath of your site, e.g. /blog
 url: https://lazybuttrying.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+# twitter_username: jekyllrb
 github_username: CodeStartToday
 
-categories:
-  - Basic
-  - Language
+show_description: true
+paginate: 10
+paginate_path: "/latest/page:num/"
 
 # Build settings
-theme: minima
+# theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-spaceship
+
 disqus:
   shortname: lazybuttrying
 
