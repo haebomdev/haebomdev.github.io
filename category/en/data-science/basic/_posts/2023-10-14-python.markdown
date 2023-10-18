@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "파이썬 기초"
+title: "Basic of Python"
 date: 2023-10-14 18:39:35 +0900
-author: KDH
-description: Python Fundamental
+authors: [lazybuttrying, MapleSyrup]
+reviewers: [wow]
+description: "Python Fundamental"
+thumbnail: https://img.freepik.com/free-vector/app-development-concept-with-desk-desktop_23-2148699345.jpg?w=996&t=st=1697547195~exp=1697547795~hmac=57b8d06f1f5e90e72837915688ae073cdee7e82445c7d0f2ac44315cd43a140e
 ---
 
 Python은 프로그래밍 언어 중에서 가장 쉽게 배울 수 있는 언어 중 하나입니다. 아래에서 Python의 기초 코드 요소에 대한 설명을 제공하겠습니다.

@@ -2,8 +2,9 @@
 layout: post
 title: "Marp: Markdown Powerpoint"
 date: 2023-10-13 18:39:35 +0900
-author: KDH
-description: Marp is an open-source presentation software that allows you to create slide presentations using Markdown
+authors: [lazybuttrying, MapleSyrup]
+reviewers: [wow]
+description: "Marp is an open-source presentation software that allows you to create slide presentations using Markdown"
 thumbnail: https://img.freepik.com/free-photo/website-html-code-browser-view-printed-white-paper-closeup-view_211682-166.jpg?w=996&t=st=1697546256~exp=1697546856~hmac=426a0b6e50c1e2c15ecd1ad8f07565743966995c58cd410e4f78ae6af9555ff5
 ---
 

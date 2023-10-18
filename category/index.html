@@ -2,8 +2,34 @@
 layout: default
 ---
 
-<h1>Select Locale</h1>
+<h1>Select Category</h1>
 
-<h3><a href="kr">Korea</a></h3>
-<h3><a href="en">English</a></h3>
+<section style="display:flex; gap:50px">
 
+<!-- Specify <a> on only leaf category folder -->
+
+<span>
+    <h3>English</h3>
+    <nav>
+        <ol>
+            <li>
+                Data Science
+                <ol>
+                    <li><a href="en/data-science/basic">Basic</a></li>
+                </ol>
+            </li>
+        </ol>
+    </nav>
+</span>
+
+<span>
+    <h3>Korea</h3>
+    <nav>
+        <ol>
+            <li><a href="kr/tool/">Tool</a></li>
+            <li><a href="kr/language/">Language</a></li>
+        </ol>
+    </nav>
+</span>
+
+</section>

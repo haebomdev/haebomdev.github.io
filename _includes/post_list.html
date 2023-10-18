@@ -1,8 +1,9 @@
-<li style="list-style: none;">
+<li style="list-style: none; margin-bottom:20px;">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     <span class="post-meta">
       <b>{{ post.date | date: date_format }}</b> . 
-      {{ post.categories | slice: 2,5 | join: " / "}} . {{post.author}}
+      {{ post.categories | slice: 2,5 | join: " / "}} <br/>
+      {{ post.authors | join: ", "}} 
       {{ site.post }}
     </span>
     <span>
@@ -10,7 +11,8 @@
             {% if post.thumbnail %}
               <img src="{{ post.thumbnail }}" style="padding: 10px; margin-top:5px; object-fit: cover; background-color: lightgray;" alt="thumbnail" height="70" width="90" />
             {% else %}
-              <img src="/assets/logo.png" style="padding: 10px; margin-top:5px; object-fit: contain; background-color: lightgray;" alt="thumbnail" height="70" width="90" />                                  {% endif %}
+              <img src="/assets/logo.png" style="padding: 10px; margin-top:5px; object-fit: contain; background-color: lightgray;" alt="thumbnail" height="70" width="90" />                                  
+            {% endif %}
           
             <div style="padding-left: 30px;">
               <a class="post-link" href="{{ post.url | relative_url }}">

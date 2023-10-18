@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Free Image source"
-date: 2023-10-13 18:39:35 +0900
-author: KDH
-description: Free image source & Add image on markdown
+date: 2023-10-17 18:39:35 +0900
+authors: [KDH, MapleSyrup]
+description: "Free image source & Add image on markdown"
 thumbnail: https://img.freepik.com/free-vector/free-text-vector-typography-gradient-isometric-font_53876-177139.jpg?size=626&ext=jpg&ga=GA1.1.137958276.1697546021&semt=sph
 ---
 
