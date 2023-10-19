@@ -31,7 +31,9 @@ domain: lazybuttrying.github.io # if you want to force HTTPS, specify the domain
 # baseurl:  # the subpath of your site, e.g. /blog
 url: https://lazybuttrying.github.io # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username: CodeStartToday
+github_username: haebomdev
+
+google_analytics: G-66CG8M8WMK
 
 show_description: true
 paginate: 10
